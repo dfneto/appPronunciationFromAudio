@@ -59,4 +59,15 @@ def save_in_text_file(elements_to_save, file_name):
             f.write(element + "\n")
 
 
-transcribe_file_with_word_time_offsets("../audios/brand_1.wav")
+# transcribe_file_with_word_time_offsets("../audios/the_miracle_morning_hal_elrold_59s_mono.wav")
+
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser(
+#         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+#     )
+#     parser.add_argument("path", help="File or GCS path for audio file to be recognized")
+#     args = parser.parse_args()
+#     if args.path.startswith("gs://"):
+#         pass
+#     else:
+#         transcribe_file_with_word_time_offsets(args.path)
