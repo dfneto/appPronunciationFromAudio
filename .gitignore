@@ -1,6 +1,7 @@
 api-key.json
 audios/
 audios_generated/
+audios_generated_3s/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
