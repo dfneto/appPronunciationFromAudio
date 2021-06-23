@@ -1,3 +1,5 @@
+Eu tenho duas classes aqui: transcribe.py do google para usar seu serviço de speech to text e AudioExtraction.py que transforma um mp4 num wav mono de 29s, aumenta/diminui a velocidade do áudio e principalmente gera a partir do áudio de 29s e dos timestamps das palavras um áudio para cada palavra.
+
 audios_generated_3s: pasta com alguns áudios de 3 palavras. A cada 3 palavras eu extraia o áudio e dei
 como nome dele a primeira palavra
 audios_generated_0.5: áudios extraídos do áudio na velocidade 0.5x
@@ -7,3 +9,14 @@ audios_generated_normal_speed: peguei os áudios da pasta audios_generated_0.5 e
 
 Posso pegar 4 versões de uma palavra: uma com os timestamp delas originais, outra com 0.1s pra trás, outra com 0.1s pra
 frente e uma com 0.1s pra trás e pra frente.
+
+
+Estrutura de pastas:
+- audios_generated
+- audios_generated_3s
+- code
+- venv
+- audios
+- audios_generated_0.5
+- audios_generated_normal_speed
+- files_generated
